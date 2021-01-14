@@ -3,7 +3,8 @@
     position: relative;
 }
 
-.carousel .carousel-item {
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
     display: none;
 }
 
@@ -44,5 +45,3 @@
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 20px;   
 }
-
-.carousel-item-hidden {display: none}
